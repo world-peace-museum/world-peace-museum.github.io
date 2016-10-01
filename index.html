@@ -1,11 +1,35 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>world-peace</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="src/css/pannellum.css"/>
+    <script type="text/javascript" src="src/js/pannellum.js"></script>
+    <script type="text/javascript" src="src/js/libpannellum.js"></script>
+    <script type="text/javascript" src="src/js/RequestAnimationFrame.js"></script>
+    <style>
+    #panorama {
+        width: 98vw;
+        height: 95vh;
+    }
+    </style>
 </head>
 <body>
-    <iframe width="window.innerWidth" height="window.innerHeight" allowfullscreen style="border-style:none;" src="src/standalone/pannellum.htm?panorama=../../images/world-peace.jpg&amp;autoLoad=true&amp;autoRotate=cw"></iframe>
-  
+
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "images/world-peace.jpg",
+    "autoLoad": true,
+    "autoRotate": -0.5,
+    "pitch": -4,
+    "hfov": 115,
+    "minPitch": -10,
+    "maxPitch": 20
+});
+</script>
+
 </body>
 </html>
