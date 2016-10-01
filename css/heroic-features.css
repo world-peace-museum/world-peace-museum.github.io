@@ -1,0 +1,66 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    /*padding-top: 70px;*/
+    overflow-x: hidden; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*background-color: #36709C;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: rgb(75, 217, 65) !important;
+}
+
+a:hover {
+	color: white !important;
+}
+a:active {
+	text-decoration: underline;
+}
+a:focus {
+	text-decoration: underline;	
+}
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+#panorama {
+    width: 100vw;
+    height: 100vh;
+}
+
+#wpm-about{
+	padding: 25px;
+}
+
+#wpm-intro-section {
+	background-color: #588bb2;
+	    padding: 15px;
+	    background-attachment: fixed;
+
+}
+
+#wpm-chapter1-section {
+	
+	    padding: 15px;
+	    background-attachment: fixed;
+
+}
+#wp-intro{
+	padding:15px;
+}
+
+#wpm-contact {
+	width:960px;
+}
+footer {
+    margin: 50px 0;
+}
